@@ -1,6 +1,6 @@
 /* eslint-disable import/named */
-import { Book } from './modules/book.js';
-import { BookList } from './modules/bookList.js';
+import Book from './modules/book.js';
+import BookList from './modules/bookList.js';
 import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 const bookList = new BookList();
