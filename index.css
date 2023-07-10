@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  height: 100%;
+  overflow: hidden;
+}
+
+header {
+  padding: 2rem 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 1px 3px 3px -1px rgba(0, 0, 0, 0.77);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.date {
+  position: fixed;
+  top: 10rem;
+  right: 20%;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+nav ul li {
+  display: flex;
+  align-items: center;
+  border-left: 0.1rem solid #000;
+  padding: 0 2rem;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000;
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.list-book {
+  padding: 10rem 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 4rem;
+  border-bottom-right-radius: 10rem;
+}
+
+table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid silver;
+  padding: 5px;
+}
+
+th {
+  text-align: start;
+  text-transform: uppercase;
+  background-color: silver;
+}
+
+tr td:last-child {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-width: 1px;
+  border-color: silver;
+}
+
+tr td:last-child a {
+  color: rgb(26, 26, 97);
+}
+
+.list-book h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.list-book-body {
+  width: 100%;
+  border: 0.3rem solid #000;
+}
+
+.bookBackground {
+  background-color: #ddd;
+}
+
+.list-book .book {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 2rem;
+}
+
+.list-book .book .title,
+.author {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000;
+}
+
+.list-book .book .author {
+  justify-self: flex-start;
+}
+
+.book-details {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.add-book form button {
+  align-self: flex-end;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #000;
+  border: 0.1rem solid #000;
+}
+
+.list-book .book button {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #000;
+  border: 0.1rem solid #000;
+  padding: 1rem;
+}
+
+.add-book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 0;
+  margin: 5rem 0;
+  background-color: #fff;
+  border-top-left-radius: 10rem;
+}
+
+.add-book form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  row-gap: 2rem;
+}
+
+.add-book form input {
+  width: 100%;
+  padding: 1rem;
+}
+
+.add-book h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 30%;
+  row-gap: 1rem;
+  background-color: #fff;
+  border-top-left-radius: 10rem;
+}
+
+section {
+  height: 100vh;
+  margin: 0 24px;
+}
+
+.contact-information h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+footer p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #000;
+}
+
+.contact-information p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #000;
+  align-self: flex-start;
+}
+
+.contact-information ul {
+  align-self: flex-start;
+  margin-top: 3rem;
+  padding-left: 3rem;
+}
+
+.contact-information ul li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #000;
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 2rem 20%;
+  background-color: #fff;
+}
